@@ -62,38 +62,4 @@ add(20,30,40)
 let numbers=[30,10,500,600,120]
 console.log(Math.max(...numbers))
 
-let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri,karadenizSehirleri]]=[
-    {name:"İç Anadolu",population:"20M"},
-    {name:"Marmara",population:"30M"},
-    {name:"Karadeniz",population:"100M"},
-
-    [
-        ["Ankara","Konya"],
-        ["İstanbul","Bursa"],
-        ["Samsun","Ordu"]
-
-    ]
-
-]
-
-console.log(icAnadoluSehirleri)
-console.log(marmaraSehirleri)
-console.log(karadenizSehirleri)
-
-
-
-let newProductName,newUnitPrice,newQuantity
-
-{
-
-    ({productName:newProductName,unitPrice: newUnitPrice,quantity: newQuantity}={productName:"Elma",unitPrice:10,quantity:5})
-    
-}
-
-
-console.log(newProductName)
-console.log(newUnitPrice)
-console.log(newQuantity)
-
-
 
